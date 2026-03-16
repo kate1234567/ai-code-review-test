@@ -2,7 +2,12 @@
 using namespace std;
 
 int divide(int a, int b){
+    if (b == 0){
+        cout << "division by zero" << endl;
+        return 0;
+    }
     return a / b;
+}
 }
 
 int main(){
